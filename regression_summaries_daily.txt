@@ -1,0 +1,2232 @@
+Summary for AFM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    AFM   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     4.276
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000771
+Time:                        22:14:38   Log-Likelihood:                 2218.3
+No. Observations:                 729   AIC:                            -4425.
+Df Residuals:                     723   BIC:                            -4397.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0004      0.001     -0.653      0.514      -0.001       0.001
+SMB           -0.1526      0.045     -3.394      0.001      -0.241      -0.064
+HML           -0.1599      0.064     -2.501      0.013      -0.285      -0.034
+WML           -0.2103      0.056     -3.732      0.000      -0.321      -0.100
+RMW            0.0614      0.076      0.812      0.417      -0.087       0.210
+MKT-RF        -0.0168      0.010     -1.720      0.086      -0.036       0.002
+==============================================================================
+Omnibus:                      131.919   Durbin-Watson:                   2.461
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              530.868
+Skew:                           0.785   Prob(JB):                    5.29e-116
+Kurtosis:                       6.874   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for AFI : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    AFI   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     4.314
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000711
+Time:                        22:14:38   Log-Likelihood:                 1997.5
+No. Observations:                 729   AIC:                            -3983.
+Df Residuals:                     723   BIC:                            -3955.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.001      0.372      0.710      -0.001       0.002
+SMB           -0.1145      0.061     -1.881      0.060      -0.234       0.005
+HML           -0.2719      0.087     -3.141      0.002      -0.442      -0.102
+WML           -0.1586      0.076     -2.079      0.038      -0.308      -0.009
+RMW           -0.0742      0.102     -0.724      0.469      -0.275       0.127
+MKT-RF         0.0017      0.013      0.132      0.895      -0.024       0.028
+==============================================================================
+Omnibus:                       87.191   Durbin-Watson:                   2.534
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              591.621
+Skew:                           0.260   Prob(JB):                    3.40e-129
+Kurtosis:                       7.382   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for GAZ : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GAZ   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     8.164
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.65e-07
+Time:                        22:14:38   Log-Likelihood:                 1871.3
+No. Observations:                 729   AIC:                            -3731.
+Df Residuals:                     723   BIC:                            -3703.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0020      0.001      2.149      0.032       0.000       0.004
+SMB           -0.2384      0.072     -3.295      0.001      -0.380      -0.096
+HML            0.1799      0.103      1.748      0.081      -0.022       0.382
+WML           -0.0577      0.091     -0.636      0.525      -0.236       0.120
+RMW            0.3662      0.122      3.008      0.003       0.127       0.605
+MKT-RF         0.0380      0.016      2.421      0.016       0.007       0.069
+==============================================================================
+Omnibus:                       48.125   Durbin-Watson:                   2.387
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              168.812
+Skew:                           0.188   Prob(JB):                     2.20e-37
+Kurtosis:                       5.327   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for AGM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    AGM   R-squared:                       0.050
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     7.621
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           5.43e-07
+Time:                        22:14:38   Log-Likelihood:                 2075.0
+No. Observations:                 729   AIC:                            -4138.
+Df Residuals:                     723   BIC:                            -4110.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0008      0.001     -1.140      0.255      -0.002       0.001
+SMB           -0.0798      0.055     -1.458      0.145      -0.187       0.028
+HML           -0.3525      0.078     -4.529      0.000      -0.505      -0.200
+WML           -0.2605      0.069     -3.798      0.000      -0.395      -0.126
+RMW            0.3947      0.092      4.287      0.000       0.214       0.575
+MKT-RF        -0.0068      0.012     -0.569      0.570      -0.030       0.017
+==============================================================================
+Omnibus:                      138.878   Durbin-Watson:                   2.153
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2226.090
+Skew:                           0.318   Prob(JB):                         0.00
+Kurtosis:                      11.537   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for AKT : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    AKT   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.045
+Method:                 Least Squares   F-statistic:                     7.806
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.61e-07
+Time:                        22:14:38   Log-Likelihood:                 2186.6
+No. Observations:                 729   AIC:                            -4361.
+Df Residuals:                     723   BIC:                            -4334.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0018      0.001     -3.102      0.002      -0.003      -0.001
+SMB           -0.2829      0.047     -6.025      0.000      -0.375      -0.191
+HML            0.0065      0.067      0.097      0.923      -0.125       0.138
+WML           -0.2704      0.059     -4.594      0.000      -0.386      -0.155
+RMW           -0.1325      0.079     -1.677      0.094      -0.288       0.023
+MKT-RF        -0.0053      0.010     -0.521      0.603      -0.025       0.015
+==============================================================================
+Omnibus:                      192.902   Durbin-Watson:                   1.711
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2885.722
+Skew:                          -0.753   Prob(JB):                         0.00
+Kurtosis:                      12.630   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ADI : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ADI   R-squared:                       0.171
+Model:                            OLS   Adj. R-squared:                  0.165
+Method:                 Least Squares   F-statistic:                     29.76
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.55e-27
+Time:                        22:14:38   Log-Likelihood:                 1674.1
+No. Observations:                 729   AIC:                            -3336.
+Df Residuals:                     723   BIC:                            -3309.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0032      0.001     -2.691      0.007      -0.006      -0.001
+SMB           -1.0434      0.095    -11.003      0.000      -1.230      -0.857
+HML           -0.0439      0.135     -0.325      0.745      -0.309       0.221
+WML           -1.0049      0.119     -8.453      0.000      -1.238      -0.771
+RMW           -1.0555      0.160     -6.615      0.000      -1.369      -0.742
+MKT-RF        -0.0162      0.021     -0.789      0.430      -0.057       0.024
+==============================================================================
+Omnibus:                       25.012   Durbin-Watson:                   1.926
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.509
+Skew:                          -0.121   Prob(JB):                     5.36e-13
+Kurtosis:                       4.342   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ALM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ALM   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     2.334
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0407
+Time:                        22:14:38   Log-Likelihood:                 2007.2
+No. Observations:                 729   AIC:                            -4002.
+Df Residuals:                     723   BIC:                            -3975.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0009      0.001      1.169      0.243      -0.001       0.002
+SMB           -0.1365      0.060     -2.273      0.023      -0.254      -0.019
+HML           -0.1348      0.085     -1.578      0.115      -0.302       0.033
+WML           -0.1890      0.075     -2.511      0.012      -0.337      -0.041
+RMW            0.0108      0.101      0.107      0.915      -0.188       0.209
+MKT-RF         0.0211      0.013      1.617      0.106      -0.005       0.047
+==============================================================================
+Omnibus:                       86.572   Durbin-Watson:                   2.201
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              723.623
+Skew:                          -0.059   Prob(JB):                    7.37e-158
+Kurtosis:                       7.879   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ARD : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ARD   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     2.919
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0128
+Time:                        22:14:38   Log-Likelihood:                 1967.5
+No. Observations:                 729   AIC:                            -3923.
+Df Residuals:                     723   BIC:                            -3895.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.001      0.275      0.784      -0.001       0.002
+SMB           -0.1298      0.063     -2.046      0.041      -0.254      -0.005
+HML           -0.2397      0.090     -2.658      0.008      -0.417      -0.063
+WML           -0.1960      0.079     -2.466      0.014      -0.352      -0.040
+RMW           -0.0389      0.107     -0.364      0.716      -0.248       0.171
+MKT-RF         0.0108      0.014      0.782      0.434      -0.016       0.038
+==============================================================================
+Omnibus:                       52.977   Durbin-Watson:                   2.661
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              190.637
+Skew:                           0.232   Prob(JB):                     4.01e-42
+Kurtosis:                       5.462   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ATL : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ATL   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     7.499
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           7.10e-07
+Time:                        22:14:38   Log-Likelihood:                 1846.2
+No. Observations:                 729   AIC:                            -3680.
+Df Residuals:                     723   BIC:                            -3653.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.001     -0.216      0.829      -0.002       0.002
+SMB           -0.0829      0.075     -1.107      0.269      -0.230       0.064
+HML           -0.4457      0.107     -4.183      0.000      -0.655      -0.237
+WML           -0.3108      0.094     -3.310      0.001      -0.495      -0.126
+RMW            0.5898      0.126      4.680      0.000       0.342       0.837
+MKT-RF        -0.0040      0.016     -0.247      0.805      -0.036       0.028
+==============================================================================
+Omnibus:                       20.522   Durbin-Watson:                   2.570
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.950
+Skew:                          -0.024   Prob(JB):                     1.74e-10
+Kurtosis:                       4.216   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ATW : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ATW   R-squared:                       0.147
+Model:                            OLS   Adj. R-squared:                  0.141
+Method:                 Least Squares   F-statistic:                     24.83
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.93e-23
+Time:                        22:14:38   Log-Likelihood:                 2292.5
+No. Observations:                 729   AIC:                            -4573.
+Df Residuals:                     723   BIC:                            -4545.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.001     -0.367      0.714      -0.001       0.001
+SMB           -0.3868      0.041     -9.526      0.000      -0.467      -0.307
+HML            0.3572      0.058      6.184      0.000       0.244       0.471
+WML           -0.1252      0.051     -2.460      0.014      -0.225      -0.025
+RMW           -0.2570      0.068     -3.761      0.000      -0.391      -0.123
+MKT-RF        -0.0011      0.009     -0.125      0.901      -0.018       0.016
+==============================================================================
+Omnibus:                       85.228   Durbin-Watson:                   2.625
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              587.859
+Skew:                          -0.228   Prob(JB):                    2.23e-128
+Kurtosis:                       7.376   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for BAL : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BAL   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     2.498
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0296
+Time:                        22:14:38   Log-Likelihood:                 2076.8
+No. Observations:                 729   AIC:                            -4142.
+Df Residuals:                     723   BIC:                            -4114.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0005      0.001      0.729      0.466      -0.001       0.002
+SMB           -0.0349      0.055     -0.639      0.523      -0.142       0.072
+HML           -0.1114      0.078     -1.435      0.152      -0.264       0.041
+WML           -0.0908      0.068     -1.327      0.185      -0.225       0.044
+RMW           -0.1130      0.092     -1.231      0.219      -0.293       0.067
+MKT-RF         0.0333      0.012      2.816      0.005       0.010       0.057
+==============================================================================
+Omnibus:                      129.516   Durbin-Watson:                   2.049
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2340.530
+Skew:                           0.062   Prob(JB):                         0.00
+Kurtosis:                      11.777   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for BOA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BOA   R-squared:                       0.194
+Model:                            OLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     34.90
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           5.18e-32
+Time:                        22:14:38   Log-Likelihood:                 2257.7
+No. Observations:                 729   AIC:                            -4503.
+Df Residuals:                     723   BIC:                            -4476.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0010      0.001      1.874      0.061   -4.79e-05       0.002
+SMB           -0.1808      0.043     -4.245      0.000      -0.264      -0.097
+HML            0.7490      0.061     12.363      0.000       0.630       0.868
+WML            0.2897      0.053      5.426      0.000       0.185       0.395
+RMW           -0.1704      0.072     -2.377      0.018      -0.311      -0.030
+MKT-RF         0.0250      0.009      2.702      0.007       0.007       0.043
+==============================================================================
+Omnibus:                       49.115   Durbin-Watson:                   2.392
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              205.080
+Skew:                           0.018   Prob(JB):                     2.93e-45
+Kurtosis:                       5.598   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for BCP : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BCP   R-squared:                       0.209
+Model:                            OLS   Adj. R-squared:                  0.204
+Method:                 Least Squares   F-statistic:                     38.29
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.60e-35
+Time:                        22:14:38   Log-Likelihood:                 2290.7
+No. Observations:                 729   AIC:                            -4569.
+Df Residuals:                     723   BIC:                            -4542.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.001      0.370      0.711      -0.001       0.001
+SMB           -0.3799      0.041     -9.333      0.000      -0.460      -0.300
+HML            0.6085      0.058     10.510      0.000       0.495       0.722
+WML            0.0119      0.051      0.234      0.815      -0.088       0.112
+RMW           -0.3678      0.068     -5.370      0.000      -0.502      -0.233
+MKT-RF         0.0037      0.009      0.418      0.676      -0.014       0.021
+==============================================================================
+Omnibus:                       48.643   Durbin-Watson:                   2.537
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              201.448
+Skew:                           0.005   Prob(JB):                     1.80e-44
+Kurtosis:                       5.575   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for BCI : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BCI   R-squared:                       0.063
+Model:                            OLS   Adj. R-squared:                  0.056
+Method:                 Least Squares   F-statistic:                     9.712
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           5.43e-09
+Time:                        22:14:38   Log-Likelihood:                 1738.3
+No. Observations:                 729   AIC:                            -3465.
+Df Residuals:                     723   BIC:                            -3437.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0017      0.001      1.535      0.125      -0.000       0.004
+SMB           -0.2955      0.087     -3.403      0.001      -0.466      -0.125
+HML           -0.3315      0.124     -2.684      0.007      -0.574      -0.089
+WML           -0.3945      0.109     -3.624      0.000      -0.608      -0.181
+RMW           -0.7281      0.146     -4.983      0.000      -1.015      -0.441
+MKT-RF         0.0337      0.019      1.787      0.074      -0.003       0.071
+==============================================================================
+Omnibus:                       30.677   Durbin-Watson:                   2.173
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               85.825
+Skew:                           0.041   Prob(JB):                     2.31e-19
+Kurtosis:                       4.679   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CFG : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CFG   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     4.747
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000283
+Time:                        22:14:38   Log-Likelihood:                 2400.8
+No. Observations:                 729   AIC:                            -4790.
+Df Residuals:                     723   BIC:                            -4762.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.000     -0.646      0.519      -0.001       0.001
+SMB           -0.1413      0.035     -4.037      0.000      -0.210      -0.073
+HML            0.0898      0.050      1.804      0.072      -0.008       0.188
+WML           -0.0753      0.044     -1.716      0.087      -0.161       0.011
+RMW           -0.0067      0.059     -0.113      0.910      -0.122       0.109
+MKT-RF         0.0113      0.008      1.484      0.138      -0.004       0.026
+==============================================================================
+Omnibus:                      569.504   Durbin-Watson:                   2.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            37143.919
+Skew:                          -2.921   Prob(JB):                         0.00
+Kurtosis:                      37.478   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for COL : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    COL   R-squared:                       0.011
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                     1.559
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.170
+Time:                        22:14:38   Log-Likelihood:                 1738.4
+No. Observations:                 729   AIC:                            -3465.
+Df Residuals:                     723   BIC:                            -3437.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0009      0.001      0.790      0.430      -0.001       0.003
+SMB           -0.1228      0.087     -1.414      0.158      -0.293       0.048
+HML           -0.2649      0.123     -2.145      0.032      -0.507      -0.022
+WML           -0.2466      0.109     -2.266      0.024      -0.460      -0.033
+RMW            0.1038      0.146      0.711      0.477      -0.183       0.391
+MKT-RF         0.0088      0.019      0.470      0.639      -0.028       0.046
+==============================================================================
+Omnibus:                      446.514   Durbin-Watson:                   2.577
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            17950.016
+Skew:                           2.119   Prob(JB):                         0.00
+Kurtosis:                      26.937   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for NEJ : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    NEJ   R-squared:                       0.019
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     2.799
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0163
+Time:                        22:14:38   Log-Likelihood:                 1808.1
+No. Observations:                 729   AIC:                            -3604.
+Df Residuals:                     723   BIC:                            -3577.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0008      0.001      0.795      0.427      -0.001       0.003
+SMB           -0.2539      0.079     -3.218      0.001      -0.409      -0.099
+HML           -0.0554      0.112     -0.493      0.622      -0.276       0.165
+WML           -0.2021      0.099     -2.043      0.041      -0.396      -0.008
+RMW            0.1273      0.133      0.959      0.338      -0.133       0.388
+MKT-RF        -0.0008      0.017     -0.049      0.961      -0.034       0.033
+==============================================================================
+Omnibus:                       41.320   Durbin-Watson:                   2.368
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              134.666
+Skew:                          -0.137   Prob(JB):                     5.72e-30
+Kurtosis:                       5.088   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CMA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CMA   R-squared:                       0.171
+Model:                            OLS   Adj. R-squared:                  0.166
+Method:                 Least Squares   F-statistic:                     29.88
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.21e-27
+Time:                        22:14:38   Log-Likelihood:                 2006.7
+No. Observations:                 729   AIC:                            -4001.
+Df Residuals:                     723   BIC:                            -3974.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.001      0.454      0.650      -0.001       0.002
+SMB           -0.5422      0.060     -9.024      0.000      -0.660      -0.424
+HML            0.4650      0.085      5.441      0.000       0.297       0.633
+WML           -0.3077      0.075     -4.085      0.000      -0.456      -0.160
+RMW            0.2103      0.101      2.080      0.038       0.012       0.409
+MKT-RF         0.0061      0.013      0.464      0.643      -0.020       0.032
+==============================================================================
+Omnibus:                       96.235   Durbin-Watson:                   2.489
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              940.679
+Skew:                          -0.094   Prob(JB):                    5.42e-205
+Kurtosis:                       8.562   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for DRI : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    DRI   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     7.309
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.08e-06
+Time:                        22:14:38   Log-Likelihood:                 2289.0
+No. Observations:                 729   AIC:                            -4566.
+Df Residuals:                     723   BIC:                            -4539.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0014      0.001     -2.823      0.005      -0.002      -0.000
+SMB           -0.0817      0.041     -2.002      0.046      -0.162      -0.002
+HML            0.0330      0.058      0.569      0.570      -0.081       0.147
+WML           -0.0528      0.051     -1.032      0.303      -0.153       0.048
+RMW           -0.0609      0.069     -0.887      0.376      -0.196       0.074
+MKT-RF        -0.0505      0.009     -5.705      0.000      -0.068      -0.033
+==============================================================================
+Omnibus:                      208.821   Durbin-Watson:                   1.806
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9839.254
+Skew:                           0.443   Prob(JB):                         0.00
+Kurtosis:                      20.976   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ADH : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ADH   R-squared:                       0.172
+Model:                            OLS   Adj. R-squared:                  0.166
+Method:                 Least Squares   F-statistic:                     30.04
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           8.76e-28
+Time:                        22:14:38   Log-Likelihood:                 1694.5
+No. Observations:                 729   AIC:                            -3377.
+Df Residuals:                     723   BIC:                            -3350.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0016      0.001     -1.361      0.174      -0.004       0.001
+SMB           -0.9422      0.092    -10.218      0.000      -1.123      -0.761
+HML            0.1757      0.131      1.339      0.181      -0.082       0.433
+WML           -0.7841      0.116     -6.783      0.000      -1.011      -0.557
+RMW           -1.3095      0.155     -8.440      0.000      -1.614      -1.005
+MKT-RF        -0.0103      0.020     -0.517      0.606      -0.050       0.029
+==============================================================================
+Omnibus:                       30.358   Durbin-Watson:                   1.805
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               77.648
+Skew:                          -0.129   Prob(JB):                     1.38e-17
+Kurtosis:                       4.578   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CIH : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CIH   R-squared:                       0.140
+Model:                            OLS   Adj. R-squared:                  0.134
+Method:                 Least Squares   F-statistic:                     23.48
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.64e-22
+Time:                        22:14:38   Log-Likelihood:                 2009.8
+No. Observations:                 729   AIC:                            -4008.
+Df Residuals:                     723   BIC:                            -3980.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0006      0.001     -0.793      0.428      -0.002       0.001
+SMB           -0.5104      0.060     -8.530      0.000      -0.628      -0.393
+HML            0.5671      0.085      6.663      0.000       0.400       0.734
+WML           -0.1404      0.075     -1.871      0.062      -0.288       0.007
+RMW           -0.1158      0.101     -1.150      0.250      -0.313       0.082
+MKT-RF        -0.0129      0.013     -0.995      0.320      -0.038       0.013
+==============================================================================
+Omnibus:                       69.345   Durbin-Watson:                   2.582
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              421.436
+Skew:                           0.063   Prob(JB):                     3.06e-92
+Kurtosis:                       6.723   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CMG : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CMG   R-squared:                         nan
+Model:                            OLS   Adj. R-squared:                    nan
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):                nan
+Time:                        22:14:38   Log-Likelihood:                    inf
+No. Observations:                 729   AIC:                              -inf
+Df Residuals:                     723   BIC:                              -inf
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const               0          0        nan        nan           0           0
+SMB                 0          0        nan        nan           0           0
+HML                 0          0        nan        nan           0           0
+WML                 0          0        nan        nan           0           0
+RMW                 0          0        nan        nan           0           0
+MKT-RF              0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                     nan
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                  nan
+Skew:                             nan   Prob(JB):                          nan
+Kurtosis:                         nan   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CSR : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CSR   R-squared:                       0.213
+Model:                            OLS   Adj. R-squared:                  0.208
+Method:                 Least Squares   F-statistic:                     39.16
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.22e-35
+Time:                        22:14:38   Log-Likelihood:                 2029.0
+No. Observations:                 729   AIC:                            -4046.
+Df Residuals:                     723   BIC:                            -4018.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.302e-05      0.001      0.018      0.986      -0.001       0.001
+SMB           -0.5195      0.058     -8.913      0.000      -0.634      -0.405
+HML            0.8186      0.083      9.873      0.000       0.656       0.981
+WML            0.0890      0.073      1.218      0.224      -0.054       0.232
+RMW            0.0993      0.098      1.013      0.311      -0.093       0.292
+MKT-RF        -0.0135      0.013     -1.069      0.285      -0.038       0.011
+==============================================================================
+Omnibus:                       28.666   Durbin-Watson:                   2.532
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               74.470
+Skew:                           0.080   Prob(JB):                     6.75e-17
+Kurtosis:                       4.557   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for DHO : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    DHO   R-squared:                       0.054
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     8.258
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.34e-07
+Time:                        22:14:38   Log-Likelihood:                 1771.5
+No. Observations:                 729   AIC:                            -3531.
+Df Residuals:                     723   BIC:                            -3503.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0009      0.001      0.883      0.378      -0.001       0.003
+SMB           -0.2543      0.083     -3.065      0.002      -0.417      -0.091
+HML           -0.5751      0.118     -4.873      0.000      -0.807      -0.343
+WML           -0.5608      0.104     -5.392      0.000      -0.765      -0.357
+RMW            0.0604      0.140      0.432      0.666      -0.214       0.334
+MKT-RF         0.0367      0.018      2.039      0.042       0.001       0.072
+==============================================================================
+Omnibus:                       37.904   Durbin-Watson:                   2.373
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.229
+Skew:                          -0.075   Prob(JB):                     2.87e-27
+Kurtosis:                       5.000   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for DIS : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    DIS   R-squared:                         nan
+Model:                            OLS   Adj. R-squared:                    nan
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):                nan
+Time:                        22:14:38   Log-Likelihood:                    inf
+No. Observations:                 729   AIC:                              -inf
+Df Residuals:                     723   BIC:                              -inf
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const               0          0        nan        nan           0           0
+SMB                 0          0        nan        nan           0           0
+HML                 0          0        nan        nan           0           0
+WML                 0          0        nan        nan           0           0
+RMW                 0          0        nan        nan           0           0
+MKT-RF              0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                     nan
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                  nan
+Skew:                             nan   Prob(JB):                          nan
+Kurtosis:                         nan   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for DWY : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    DWY   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     1.986
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0787
+Time:                        22:14:38   Log-Likelihood:                 1938.5
+No. Observations:                 729   AIC:                            -3865.
+Df Residuals:                     723   BIC:                            -3837.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.223e-05      0.001      0.063      0.950      -0.002       0.002
+SMB           -0.1677      0.066     -2.541      0.011      -0.297      -0.038
+HML           -0.0901      0.094     -0.960      0.337      -0.274       0.094
+WML           -0.1589      0.083     -1.921      0.055      -0.321       0.004
+RMW            0.1051      0.111      0.947      0.344      -0.113       0.323
+MKT-RF        -0.0039      0.014     -0.271      0.786      -0.032       0.024
+==============================================================================
+Omnibus:                       62.849   Durbin-Watson:                   2.481
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              187.321
+Skew:                           0.401   Prob(JB):                     2.11e-41
+Kurtosis:                       5.350   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for NKL : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    NKL   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.034
+Method:                 Least Squares   F-statistic:                     6.141
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.39e-05
+Time:                        22:14:38   Log-Likelihood:                 1832.2
+No. Observations:                 729   AIC:                            -3652.
+Df Residuals:                     723   BIC:                            -3625.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.001      0.228      0.819      -0.002       0.002
+SMB            0.0188      0.076      0.247      0.805      -0.131       0.169
+HML           -0.3585      0.109     -3.301      0.001      -0.572      -0.145
+WML           -0.1302      0.096     -1.361      0.174      -0.318       0.058
+RMW            0.6128      0.128      4.771      0.000       0.361       0.865
+MKT-RF         0.0014      0.017      0.083      0.934      -0.031       0.034
+==============================================================================
+Omnibus:                       52.154   Durbin-Watson:                   2.414
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              231.070
+Skew:                          -0.024   Prob(JB):                     6.67e-51
+Kurtosis:                       5.758   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for EQD : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    EQD   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     3.911
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):            0.00167
+Time:                        22:14:38   Log-Likelihood:                 1763.1
+No. Observations:                 729   AIC:                            -3514.
+Df Residuals:                     723   BIC:                            -3487.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0010      0.001      0.912      0.362      -0.001       0.003
+SMB           -0.1212      0.084     -1.444      0.149      -0.286       0.044
+HML           -0.1582      0.119     -1.325      0.185      -0.393       0.076
+WML           -0.0419      0.105     -0.398      0.691      -0.248       0.165
+RMW           -0.3273      0.141     -2.317      0.021      -0.605      -0.050
+MKT-RF         0.0098      0.018      0.537      0.592      -0.026       0.046
+==============================================================================
+Omnibus:                       64.771   Durbin-Watson:                   2.235
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              240.813
+Skew:                           0.334   Prob(JB):                     5.11e-53
+Kurtosis:                       5.736   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for FBR : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FBR   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     1.479
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.194
+Time:                        22:14:38   Log-Likelihood:                 1686.2
+No. Observations:                 729   AIC:                            -3360.
+Df Residuals:                     723   BIC:                            -3333.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0011      0.001      0.925      0.355      -0.001       0.003
+SMB           -0.1323      0.093     -1.418      0.157      -0.315       0.051
+HML            0.1335      0.133      1.006      0.315      -0.127       0.394
+WML            0.0286      0.117      0.245      0.807      -0.201       0.258
+RMW           -0.3242      0.157     -2.066      0.039      -0.632      -0.016
+MKT-RF         0.0137      0.020      0.678      0.498      -0.026       0.053
+==============================================================================
+Omnibus:                       38.042   Durbin-Watson:                   2.130
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              121.991
+Skew:                          -0.086   Prob(JB):                     3.24e-27
+Kurtosis:                       4.997   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for HPS : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    HPS   R-squared:                       0.934
+Model:                            OLS   Adj. R-squared:                  0.934
+Method:                 Least Squares   F-statistic:                     2049.
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):               0.00
+Time:                        22:14:38   Log-Likelihood:                 779.77
+No. Observations:                 729   AIC:                            -1548.
+Df Residuals:                     723   BIC:                            -1520.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0060      0.004     -1.467      0.143      -0.014       0.002
+SMB           -8.1958      0.323    -25.342      0.000      -8.831      -7.561
+HML           -6.9972      0.460    -15.211      0.000      -7.900      -6.094
+WML            7.2271      0.405     17.826      0.000       6.431       8.023
+RMW           -2.7910      0.544     -5.129      0.000      -3.859      -1.723
+MKT-RF        -0.1593      0.070     -2.271      0.023      -0.297      -0.022
+==============================================================================
+Omnibus:                       77.729   Durbin-Watson:                   1.836
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              429.046
+Skew:                           0.273   Prob(JB):                     6.82e-94
+Kurtosis:                       6.718   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for IAM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    IAM   R-squared:                       0.123
+Model:                            OLS   Adj. R-squared:                  0.117
+Method:                 Least Squares   F-statistic:                     20.20
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.80e-19
+Time:                        22:14:38   Log-Likelihood:                 2133.8
+No. Observations:                 729   AIC:                            -4256.
+Df Residuals:                     723   BIC:                            -4228.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.001      0.946      0.345      -0.001       0.002
+SMB           -0.3757      0.050     -7.443      0.000      -0.475      -0.277
+HML            0.4941      0.072      6.883      0.000       0.353       0.635
+WML           -0.0428      0.063     -0.676      0.499      -0.167       0.081
+RMW           -0.1066      0.085     -1.255      0.210      -0.273       0.060
+MKT-RF        -0.0037      0.011     -0.334      0.738      -0.025       0.018
+==============================================================================
+Omnibus:                      172.599   Durbin-Watson:                   1.979
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4479.341
+Skew:                           0.395   Prob(JB):                         0.00
+Kurtosis:                      15.118   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for IBC : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    IBC   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.046
+Method:                 Least Squares   F-statistic:                     8.059
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           2.07e-07
+Time:                        22:14:38   Log-Likelihood:                 1558.6
+No. Observations:                 729   AIC:                            -3105.
+Df Residuals:                     723   BIC:                            -3078.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0010      0.001      0.745      0.456      -0.002       0.004
+SMB           -0.1791      0.111     -1.611      0.108      -0.397       0.039
+HML            0.0580      0.158      0.367      0.714      -0.252       0.368
+WML           -0.1458      0.139     -1.047      0.296      -0.419       0.128
+RMW            0.9878      0.187      5.284      0.000       0.621       1.355
+MKT-RF         0.0172      0.024      0.713      0.476      -0.030       0.065
+==============================================================================
+Omnibus:                       42.157   Durbin-Watson:                   2.094
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              152.740
+Skew:                          -0.016   Prob(JB):                     6.81e-34
+Kurtosis:                       5.242   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for IMO : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    IMO   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     3.810
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):            0.00206
+Time:                        22:14:38   Log-Likelihood:                 2153.4
+No. Observations:                 729   AIC:                            -4295.
+Df Residuals:                     723   BIC:                            -4267.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.001      0.383      0.702      -0.001       0.001
+SMB           -0.1935      0.049     -3.938      0.000      -0.290      -0.097
+HML           -0.0977      0.070     -1.398      0.163      -0.235       0.040
+WML           -0.2244      0.062     -3.642      0.000      -0.345      -0.103
+RMW           -0.1138      0.083     -1.377      0.169      -0.276       0.049
+MKT-RF        -0.0006      0.011     -0.052      0.959      -0.021       0.020
+==============================================================================
+Omnibus:                       43.214   Durbin-Watson:                   2.653
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              159.971
+Skew:                           0.019   Prob(JB):                     1.83e-35
+Kurtosis:                       5.295   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for INV : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    INV   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.786
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.113
+Time:                        22:14:38   Log-Likelihood:                 1869.1
+No. Observations:                 729   AIC:                            -3726.
+Df Residuals:                     723   BIC:                            -3699.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.001      0.699      0.485      -0.001       0.002
+SMB           -0.0529      0.073     -0.729      0.466      -0.195       0.090
+HML           -0.0410      0.103     -0.397      0.692      -0.244       0.162
+WML           -0.0152      0.091     -0.168      0.867      -0.194       0.163
+RMW           -0.3071      0.122     -2.515      0.012      -0.547      -0.067
+MKT-RF         0.0052      0.016      0.331      0.741      -0.026       0.036
+==============================================================================
+Omnibus:                       92.708   Durbin-Watson:                   2.107
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              714.495
+Skew:                          -0.247   Prob(JB):                    7.07e-156
+Kurtosis:                       7.825   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for JET : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    JET   R-squared:                       0.072
+Model:                            OLS   Adj. R-squared:                  0.066
+Method:                 Least Squares   F-statistic:                     11.25
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.83e-10
+Time:                        22:14:38   Log-Likelihood:                 1753.5
+No. Observations:                 729   AIC:                            -3495.
+Df Residuals:                     723   BIC:                            -3467.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0008      0.001     -0.716      0.475      -0.003       0.001
+SMB           -0.3713      0.085     -4.366      0.000      -0.538      -0.204
+HML           -0.6214      0.121     -5.136      0.000      -0.859      -0.384
+WML           -0.6631      0.107     -6.219      0.000      -0.872      -0.454
+RMW            0.0041      0.143      0.029      0.977      -0.277       0.285
+MKT-RF         0.0437      0.018      2.367      0.018       0.007       0.080
+==============================================================================
+Omnibus:                       77.113   Durbin-Watson:                   1.814
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              192.236
+Skew:                          -0.568   Prob(JB):                     1.81e-42
+Kurtosis:                       5.245   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for LBV : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    LBV   R-squared:                       0.103
+Model:                            OLS   Adj. R-squared:                  0.096
+Method:                 Least Squares   F-statistic:                     16.55
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.73e-15
+Time:                        22:14:38   Log-Likelihood:                 1973.3
+No. Observations:                 729   AIC:                            -3935.
+Df Residuals:                     723   BIC:                            -3907.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0005      0.001      0.588      0.556      -0.001       0.002
+SMB           -0.2807      0.063     -4.462      0.000      -0.404      -0.157
+HML            0.5866      0.089      6.555      0.000       0.411       0.762
+WML            0.1486      0.079      1.884      0.060      -0.006       0.303
+RMW            0.2225      0.106      2.102      0.036       0.015       0.430
+MKT-RF         0.0055      0.014      0.405      0.686      -0.021       0.032
+==============================================================================
+Omnibus:                       46.896   Durbin-Watson:                   2.515
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              180.819
+Skew:                           0.090   Prob(JB):                     5.44e-40
+Kurtosis:                       5.433   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for LES : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    LES   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                     7.733
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           4.25e-07
+Time:                        22:14:38   Log-Likelihood:                 1915.0
+No. Observations:                 729   AIC:                            -3818.
+Df Residuals:                     723   BIC:                            -3790.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.001     -0.248      0.804      -0.002       0.001
+SMB           -0.2384      0.068     -3.498      0.000      -0.372      -0.105
+HML           -0.4419      0.097     -4.559      0.000      -0.632      -0.252
+WML           -0.4664      0.085     -5.459      0.000      -0.634      -0.299
+RMW           -0.1787      0.115     -1.558      0.120      -0.404       0.046
+MKT-RF         0.0042      0.015      0.287      0.774      -0.025       0.033
+==============================================================================
+Omnibus:                       87.578   Durbin-Watson:                   2.275
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              399.936
+Skew:                          -0.440   Prob(JB):                     1.43e-87
+Kurtosis:                       6.520   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for LHM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    LHM   R-squared:                       0.174
+Model:                            OLS   Adj. R-squared:                  0.168
+Method:                 Least Squares   F-statistic:                     30.49
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.52e-28
+Time:                        22:14:38   Log-Likelihood:                 1991.4
+No. Observations:                 729   AIC:                            -3971.
+Df Residuals:                     723   BIC:                            -3943.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.001     -0.333      0.740      -0.002       0.001
+SMB           -0.4992      0.061     -8.135      0.000      -0.620      -0.379
+HML            0.6983      0.087      7.999      0.000       0.527       0.870
+WML           -0.1301      0.077     -1.691      0.091      -0.281       0.021
+RMW            0.0775      0.103      0.751      0.453      -0.125       0.280
+MKT-RF        -0.0166      0.013     -1.247      0.213      -0.043       0.010
+==============================================================================
+Omnibus:                       36.754   Durbin-Watson:                   2.489
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              113.011
+Skew:                          -0.100   Prob(JB):                     2.88e-25
+Kurtosis:                       4.918   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for M2M : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    M2M   R-squared:                       0.050
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     7.532
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.61e-07
+Time:                        22:14:38   Log-Likelihood:                 1956.5
+No. Observations:                 729   AIC:                            -3901.
+Df Residuals:                     723   BIC:                            -3873.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.001      0.426      0.670      -0.001       0.002
+SMB           -0.1946      0.064     -3.022      0.003      -0.321      -0.068
+HML           -0.0590      0.092     -0.644      0.520      -0.239       0.121
+WML           -0.0613      0.081     -0.760      0.447      -0.220       0.097
+RMW           -0.4472      0.108     -4.128      0.000      -0.660      -0.235
+MKT-RF        -0.0017      0.014     -0.120      0.905      -0.029       0.026
+==============================================================================
+Omnibus:                      132.502   Durbin-Watson:                   1.866
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1526.619
+Skew:                           0.421   Prob(JB):                         0.00
+Kurtosis:                      10.039   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MAB : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MAB   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     2.257
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0472
+Time:                        22:14:38   Log-Likelihood:                 2227.2
+No. Observations:                 729   AIC:                            -4442.
+Df Residuals:                     723   BIC:                            -4415.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0012      0.001     -2.125      0.034      -0.002   -9.02e-05
+SMB           -0.0781      0.044     -1.759      0.079      -0.165       0.009
+HML           -0.0173      0.063     -0.273      0.785      -0.141       0.107
+WML           -0.0747      0.056     -1.343      0.180      -0.184       0.035
+RMW            0.0231      0.075      0.309      0.757      -0.124       0.170
+MKT-RF        -0.0284      0.010     -2.948      0.003      -0.047      -0.009
+==============================================================================
+Omnibus:                      201.818   Durbin-Watson:                   2.195
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6051.703
+Skew:                           0.570   Prob(JB):                         0.00
+Kurtosis:                      17.069   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MDP : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MDP   R-squared:                       0.056
+Model:                            OLS   Adj. R-squared:                  0.049
+Method:                 Least Squares   F-statistic:                     8.536
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           7.26e-08
+Time:                        22:14:38   Log-Likelihood:                 1674.2
+No. Observations:                 729   AIC:                            -3336.
+Df Residuals:                     723   BIC:                            -3309.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.001     -0.161      0.872      -0.003       0.002
+SMB           -0.3110      0.095     -3.280      0.001      -0.497      -0.125
+HML           -0.3904      0.135     -2.895      0.004      -0.655      -0.126
+WML           -0.3809      0.119     -3.205      0.001      -0.614      -0.148
+RMW            0.6696      0.160      4.197      0.000       0.356       0.983
+MKT-RF        -0.0126      0.021     -0.612      0.541      -0.053       0.028
+==============================================================================
+Omnibus:                       13.825   Durbin-Watson:                   2.126
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               19.558
+Skew:                          -0.180   Prob(JB):                     5.66e-05
+Kurtosis:                       3.718   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MIC : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MIC   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     13.14
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           2.87e-12
+Time:                        22:14:38   Log-Likelihood:                 1913.1
+No. Observations:                 729   AIC:                            -3814.
+Df Residuals:                     723   BIC:                            -3787.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.001      0.705      0.481      -0.001       0.002
+SMB           -0.2079      0.068     -3.043      0.002      -0.342      -0.074
+HML           -0.4862      0.097     -5.003      0.000      -0.677      -0.295
+WML           -0.5210      0.086     -6.083      0.000      -0.689      -0.353
+RMW            0.5630      0.115      4.897      0.000       0.337       0.789
+MKT-RF         0.0130      0.015      0.878      0.380      -0.016       0.042
+==============================================================================
+Omnibus:                       44.056   Durbin-Watson:                   2.451
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              139.691
+Skew:                           0.195   Prob(JB):                     4.64e-31
+Kurtosis:                       5.109   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MLE : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MLE   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.7715
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.570
+Time:                        22:14:38   Log-Likelihood:                 2165.7
+No. Observations:                 729   AIC:                            -4319.
+Df Residuals:                     723   BIC:                            -4292.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001      0.001      0.219      0.826      -0.001       0.001
+SMB            0.0794      0.048      1.644      0.101      -0.015       0.174
+HML           -0.0353      0.069     -0.514      0.607      -0.170       0.100
+WML            0.0612      0.061      1.010      0.313      -0.058       0.180
+RMW           -0.0259      0.081     -0.319      0.750      -0.186       0.134
+MKT-RF         0.0015      0.010      0.147      0.883      -0.019       0.022
+==============================================================================
+Omnibus:                      194.067   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5804.114
+Skew:                           0.513   Prob(JB):                         0.00
+Kurtosis:                      16.785   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MNG : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MNG   R-squared:                       0.146
+Model:                            OLS   Adj. R-squared:                  0.140
+Method:                 Least Squares   F-statistic:                     24.73
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           4.86e-23
+Time:                        22:14:38   Log-Likelihood:                 1932.2
+No. Observations:                 729   AIC:                            -3852.
+Df Residuals:                     723   BIC:                            -3825.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0005      0.001     -0.644      0.520      -0.002       0.001
+SMB           -0.5222      0.067     -7.847      0.000      -0.653      -0.392
+HML            0.7649      0.095      8.080      0.000       0.579       0.951
+WML           -0.0420      0.083     -0.503      0.615      -0.206       0.122
+RMW           -0.2364      0.112     -2.111      0.035      -0.456      -0.017
+MKT-RF      6.776e-05      0.014      0.005      0.996      -0.028       0.028
+==============================================================================
+Omnibus:                       44.036   Durbin-Watson:                   2.089
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              165.667
+Skew:                           0.023   Prob(JB):                     1.06e-36
+Kurtosis:                       5.335   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MOX : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MOX   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.034
+Method:                 Least Squares   F-statistic:                     6.152
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.36e-05
+Time:                        22:14:38   Log-Likelihood:                 1776.0
+No. Observations:                 729   AIC:                            -3540.
+Df Residuals:                     723   BIC:                            -3512.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0015      0.001      1.460      0.145      -0.001       0.004
+SMB            0.0120      0.082      0.146      0.884      -0.150       0.174
+HML            0.2041      0.117      1.740      0.082      -0.026       0.434
+WML            0.1940      0.103      1.877      0.061      -0.009       0.397
+RMW           -0.7101      0.139     -5.118      0.000      -0.983      -0.438
+MKT-RF         0.0123      0.018      0.686      0.493      -0.023       0.047
+==============================================================================
+Omnibus:                       94.960   Durbin-Watson:                   2.094
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              436.244
+Skew:                           0.493   Prob(JB):                     1.87e-95
+Kurtosis:                       6.659   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MUT : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MUT   R-squared:                       0.073
+Model:                            OLS   Adj. R-squared:                  0.067
+Method:                 Least Squares   F-statistic:                     11.40
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.33e-10
+Time:                        22:14:38   Log-Likelihood:                 2093.0
+No. Observations:                 729   AIC:                            -4174.
+Df Residuals:                     723   BIC:                            -4147.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -8.181e-05      0.001     -0.122      0.903      -0.001       0.001
+SMB           -0.3687      0.053     -6.906      0.000      -0.473      -0.264
+HML            0.1934      0.076      2.547      0.011       0.044       0.342
+WML           -0.1424      0.067     -2.128      0.034      -0.274      -0.011
+RMW           -0.0806      0.090     -0.897      0.370      -0.257       0.096
+MKT-RF         0.0032      0.012      0.279      0.780      -0.019       0.026
+==============================================================================
+Omnibus:                       61.311   Durbin-Watson:                   2.399
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              325.163
+Skew:                          -0.000   Prob(JB):                     2.46e-71
+Kurtosis:                       6.272   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for OUL : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    OUL   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.004
+Method:                 Least Squares   F-statistic:                    0.3781
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.864
+Time:                        22:14:38   Log-Likelihood:                 2132.8
+No. Observations:                 729   AIC:                            -4254.
+Df Residuals:                     723   BIC:                            -4226.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.001     -0.535      0.593      -0.002       0.001
+SMB            0.0140      0.051      0.277      0.782      -0.085       0.113
+HML           -0.0105      0.072     -0.146      0.884      -0.152       0.131
+WML            0.0409      0.063      0.645      0.519      -0.084       0.165
+RMW            0.0508      0.085      0.598      0.550      -0.116       0.218
+MKT-RF        -0.0029      0.011     -0.262      0.793      -0.024       0.019
+==============================================================================
+Omnibus:                      181.013   Durbin-Watson:                   1.869
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3781.174
+Skew:                           0.554   Prob(JB):                         0.00
+Kurtosis:                      14.102   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for PRO : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    PRO   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.683
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.136
+Time:                        22:14:39   Log-Likelihood:                 1974.8
+No. Observations:                 729   AIC:                            -3938.
+Df Residuals:                     723   BIC:                            -3910.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0005      0.001      0.686      0.493      -0.001       0.002
+SMB            0.1186      0.063      1.889      0.059      -0.005       0.242
+HML            0.0463      0.089      0.519      0.604      -0.129       0.222
+WML            0.1927      0.079      2.448      0.015       0.038       0.347
+RMW           -0.0527      0.106     -0.499      0.618      -0.260       0.155
+MKT-RF         0.0037      0.014      0.270      0.787      -0.023       0.030
+==============================================================================
+Omnibus:                      107.939   Durbin-Watson:                   2.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              946.061
+Skew:                           0.333   Prob(JB):                    3.68e-206
+Kurtosis:                       8.541   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for RDS : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    RDS   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.115
+Method:                 Least Squares   F-statistic:                     19.97
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.10e-18
+Time:                        22:14:39   Log-Likelihood:                 1557.8
+No. Observations:                 729   AIC:                            -3104.
+Df Residuals:                     723   BIC:                            -3076.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0008      0.001     -0.585      0.559      -0.004       0.002
+SMB           -0.8399      0.111     -7.551      0.000      -1.058      -0.622
+HML            0.0060      0.158      0.038      0.970      -0.305       0.317
+WML           -0.8279      0.139     -5.937      0.000      -1.102      -0.554
+RMW           -1.3905      0.187     -7.430      0.000      -1.758      -1.023
+MKT-RF        -0.0067      0.024     -0.276      0.783      -0.054       0.041
+==============================================================================
+Omnibus:                       31.770   Durbin-Watson:                   2.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               91.363
+Skew:                          -0.036   Prob(JB):                     1.45e-20
+Kurtosis:                       4.733   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for REB : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    REB   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     3.760
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):            0.00228
+Time:                        22:14:39   Log-Likelihood:                 2139.9
+No. Observations:                 729   AIC:                            -4268.
+Df Residuals:                     723   BIC:                            -4240.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.001      0.392      0.695      -0.001       0.001
+SMB           -0.0722      0.050     -1.443      0.149      -0.171       0.026
+HML           -0.0367      0.071     -0.516      0.606      -0.177       0.103
+WML           -0.0976      0.063     -1.555      0.120      -0.221       0.026
+RMW           -0.3389      0.084     -4.023      0.000      -0.504      -0.174
+MKT-RF         0.0012      0.011      0.111      0.912      -0.020       0.023
+==============================================================================
+Omnibus:                      166.416   Durbin-Watson:                   1.891
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4948.469
+Skew:                           0.253   Prob(JB):                         0.00
+Kurtosis:                      15.754   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for S2M : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    S2M   R-squared:                       0.073
+Model:                            OLS   Adj. R-squared:                  0.066
+Method:                 Least Squares   F-statistic:                     11.37
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.42e-10
+Time:                        22:14:39   Log-Likelihood:                 1800.8
+No. Observations:                 729   AIC:                            -3590.
+Df Residuals:                     723   BIC:                            -3562.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0018      0.001      1.788      0.074      -0.000       0.004
+SMB           -0.1022      0.080     -1.282      0.200      -0.259       0.054
+HML           -0.2900      0.113     -2.558      0.011      -0.513      -0.067
+WML           -0.2552      0.100     -2.554      0.011      -0.451      -0.059
+RMW            0.7670      0.134      5.719      0.000       0.504       1.030
+MKT-RF         0.0543      0.017      3.138      0.002       0.020       0.088
+==============================================================================
+Omnibus:                       69.828   Durbin-Watson:                   2.023
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              423.094
+Skew:                          -0.085   Prob(JB):                     1.34e-92
+Kurtosis:                       6.728   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SAH : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SAH   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     2.435
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0335
+Time:                        22:14:39   Log-Likelihood:                 1746.3
+No. Observations:                 729   AIC:                            -3481.
+Df Residuals:                     723   BIC:                            -3453.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0004      0.001      0.325      0.745      -0.002       0.002
+SMB           -0.2668      0.086     -3.106      0.002      -0.435      -0.098
+HML           -0.1169      0.122     -0.957      0.339      -0.357       0.123
+WML           -0.2864      0.108     -2.660      0.008      -0.498      -0.075
+RMW            0.0088      0.145      0.061      0.951      -0.275       0.293
+MKT-RF         0.0128      0.019      0.685      0.494      -0.024       0.049
+==============================================================================
+Omnibus:                       75.665   Durbin-Watson:                   2.288
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              493.752
+Skew:                           0.129   Prob(JB):                    6.07e-108
+Kurtosis:                       7.024   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SAM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SAM   R-squared:                         nan
+Model:                            OLS   Adj. R-squared:                    nan
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):                nan
+Time:                        22:14:39   Log-Likelihood:                    inf
+No. Observations:                 729   AIC:                              -inf
+Df Residuals:                     723   BIC:                              -inf
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const               0          0        nan        nan           0           0
+SMB                 0          0        nan        nan           0           0
+HML                 0          0        nan        nan           0           0
+WML                 0          0        nan        nan           0           0
+RMW                 0          0        nan        nan           0           0
+MKT-RF              0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                     nan
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                  nan
+Skew:                             nan   Prob(JB):                          nan
+Kurtosis:                         nan   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SBM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SBM   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.026
+Method:                 Least Squares   F-statistic:                     4.933
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000190
+Time:                        22:14:39   Log-Likelihood:                 1783.4
+No. Observations:                 729   AIC:                            -3555.
+Df Residuals:                     723   BIC:                            -3527.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0004      0.001      0.429      0.668      -0.002       0.002
+SMB           -0.1549      0.082     -1.898      0.058      -0.315       0.005
+HML           -0.1801      0.116     -1.551      0.121      -0.408       0.048
+WML           -0.1645      0.102     -1.607      0.108      -0.365       0.036
+RMW            0.5179      0.137      3.771      0.000       0.248       0.788
+MKT-RF         0.0035      0.018      0.200      0.842      -0.031       0.038
+==============================================================================
+Omnibus:                      111.941   Durbin-Watson:                   2.336
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              732.647
+Skew:                           0.489   Prob(JB):                    8.08e-160
+Kurtosis:                       7.813   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for MSA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MSA   R-squared:                       0.152
+Model:                            OLS   Adj. R-squared:                  0.147
+Method:                 Least Squares   F-statistic:                     26.00
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.51e-24
+Time:                        22:14:39   Log-Likelihood:                 2086.2
+No. Observations:                 729   AIC:                            -4160.
+Df Residuals:                     723   BIC:                            -4133.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0010      0.001     -1.546      0.122      -0.002       0.000
+SMB           -0.5409      0.054    -10.037      0.000      -0.647      -0.435
+HML            0.3792      0.077      4.947      0.000       0.229       0.530
+WML           -0.2482      0.068     -3.674      0.000      -0.381      -0.116
+RMW           -0.0129      0.091     -0.142      0.887      -0.191       0.165
+MKT-RF        -0.0064      0.012     -0.546      0.585      -0.029       0.017
+==============================================================================
+Omnibus:                       84.554   Durbin-Watson:                   2.401
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              280.796
+Skew:                          -0.529   Prob(JB):                     1.06e-61
+Kurtosis:                       5.851   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SLF : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SLF   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.7035
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.621
+Time:                        22:14:39   Log-Likelihood:                 1698.2
+No. Observations:                 729   AIC:                            -3384.
+Df Residuals:                     723   BIC:                            -3357.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0008      0.001      0.697      0.486      -0.001       0.003
+SMB           -0.0270      0.092     -0.295      0.768      -0.207       0.153
+HML           -0.0509      0.131     -0.390      0.697      -0.307       0.205
+WML            0.0423      0.115      0.368      0.713      -0.183       0.268
+RMW           -0.0042      0.154     -0.027      0.978      -0.307       0.299
+MKT-RF         0.0064      0.020      0.324      0.746      -0.033       0.046
+==============================================================================
+Omnibus:                       63.386   Durbin-Watson:                   2.365
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              322.770
+Skew:                           0.143   Prob(JB):                     8.15e-71
+Kurtosis:                       6.247   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SNA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SNA   R-squared:                       0.062
+Model:                            OLS   Adj. R-squared:                  0.056
+Method:                 Least Squares   F-statistic:                     9.579
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           7.28e-09
+Time:                        22:14:39   Log-Likelihood:                 1644.5
+No. Observations:                 729   AIC:                            -3277.
+Df Residuals:                     723   BIC:                            -3250.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0005      0.001      0.371      0.710      -0.002       0.003
+SMB           -0.0523      0.099     -0.529      0.597      -0.246       0.142
+HML           -0.1981      0.140     -1.410      0.159      -0.474       0.078
+WML           -0.0886      0.124     -0.716      0.474      -0.332       0.154
+RMW            1.0735      0.166      6.461      0.000       0.747       1.400
+MKT-RF         0.0092      0.021      0.432      0.666      -0.033       0.051
+==============================================================================
+Omnibus:                       19.632   Durbin-Watson:                   2.273
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.218
+Skew:                          -0.057   Prob(JB):                     1.12e-09
+Kurtosis:                       4.159   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for STR : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    STR   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.006
+Method:                 Least Squares   F-statistic:                     1.824
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.106
+Time:                        22:14:39   Log-Likelihood:                 1482.7
+No. Observations:                 729   AIC:                            -2953.
+Df Residuals:                     723   BIC:                            -2926.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.002      0.355      0.723      -0.002       0.004
+SMB            0.0398      0.123      0.323      0.747      -0.202       0.282
+HML            0.4317      0.175      2.461      0.014       0.087       0.776
+WML            0.3916      0.155      2.534      0.011       0.088       0.695
+RMW           -0.1244      0.207     -0.600      0.549      -0.532       0.283
+MKT-RF         0.0113      0.027      0.422      0.673      -0.041       0.064
+==============================================================================
+Omnibus:                       26.629   Durbin-Watson:                   2.110
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               59.041
+Skew:                           0.159   Prob(JB):                     1.51e-13
+Kurtosis:                       4.357   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for TQM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TQM   R-squared:                       0.189
+Model:                            OLS   Adj. R-squared:                  0.183
+Method:                 Least Squares   F-statistic:                     33.66
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.08e-31
+Time:                        22:14:39   Log-Likelihood:                 1878.3
+No. Observations:                 729   AIC:                            -3745.
+Df Residuals:                     723   BIC:                            -3717.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0004      0.001      0.399      0.690      -0.001       0.002
+SMB           -0.6211      0.072     -8.666      0.000      -0.762      -0.480
+HML            0.5877      0.102      5.765      0.000       0.388       0.788
+WML           -0.0676      0.090     -0.752      0.452      -0.244       0.109
+RMW            0.4973      0.121      4.124      0.000       0.261       0.734
+MKT-RF         0.0157      0.016      1.010      0.313      -0.015       0.046
+==============================================================================
+Omnibus:                       17.319   Durbin-Watson:                   2.364
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.467
+Skew:                          -0.120   Prob(JB):                     1.47e-07
+Kurtosis:                       3.989   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for TGC : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TGC   R-squared:                       0.112
+Model:                            OLS   Adj. R-squared:                  0.106
+Method:                 Least Squares   F-statistic:                     18.31
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.85e-17
+Time:                        22:14:39   Log-Likelihood:                 1978.2
+No. Observations:                 729   AIC:                            -3944.
+Df Residuals:                     723   BIC:                            -3917.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0014      0.001     -1.740      0.082      -0.003       0.000
+SMB           -0.5553      0.062     -8.886      0.000      -0.678      -0.433
+HML            0.1276      0.089      1.435      0.152      -0.047       0.302
+WML           -0.4588      0.078     -5.856      0.000      -0.613      -0.305
+RMW            0.0382      0.105      0.363      0.717      -0.168       0.245
+MKT-RF        -0.0021      0.014     -0.157      0.875      -0.029       0.024
+==============================================================================
+Omnibus:                       47.325   Durbin-Watson:                   2.194
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               94.936
+Skew:                          -0.409   Prob(JB):                     2.43e-21
+Kurtosis:                       4.567   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for TMA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TMA   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.026
+Method:                 Least Squares   F-statistic:                     4.851
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000226
+Time:                        22:14:39   Log-Likelihood:                 1858.3
+No. Observations:                 729   AIC:                            -3705.
+Df Residuals:                     723   BIC:                            -3677.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0012      0.001      1.325      0.186      -0.001       0.003
+SMB           -0.2423      0.074     -3.290      0.001      -0.387      -0.098
+HML            0.2785      0.105      2.659      0.008       0.073       0.484
+WML           -0.0060      0.092     -0.065      0.948      -0.187       0.175
+RMW           -0.4012      0.124     -3.237      0.001      -0.645      -0.158
+MKT-RF         0.0224      0.016      1.399      0.162      -0.009       0.054
+==============================================================================
+Omnibus:                       47.710   Durbin-Watson:                   2.243
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              154.421
+Skew:                           0.228   Prob(JB):                     2.94e-34
+Kurtosis:                       5.208   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for UMR : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    UMR   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.005
+Method:                 Least Squares   F-statistic:                    0.2649
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):              0.932
+Time:                        22:14:39   Log-Likelihood:                 2473.2
+No. Observations:                 729   AIC:                            -4934.
+Df Residuals:                     723   BIC:                            -4907.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.000     -0.704      0.482      -0.001       0.001
+SMB           -0.0086      0.032     -0.272      0.786      -0.071       0.054
+HML           -0.0012      0.045     -0.026      0.979      -0.090       0.087
+WML           -0.0100      0.040     -0.251      0.802      -0.088       0.068
+RMW           -0.0585      0.053     -1.096      0.273      -0.163       0.046
+MKT-RF        -0.0008      0.007     -0.116      0.908      -0.014       0.013
+==============================================================================
+Omnibus:                      247.758   Durbin-Watson:                   1.946
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            20577.446
+Skew:                           0.537   Prob(JB):                         0.00
+Kurtosis:                      29.006   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for WAA : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    WAA   R-squared:                       0.127
+Model:                            OLS   Adj. R-squared:                  0.121
+Method:                 Least Squares   F-statistic:                     20.98
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.29e-19
+Time:                        22:14:39   Log-Likelihood:                 1864.3
+No. Observations:                 729   AIC:                            -3717.
+Df Residuals:                     723   BIC:                            -3689.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0009      0.001      0.973      0.331      -0.001       0.003
+SMB           -0.6871      0.073     -9.405      0.000      -0.831      -0.544
+HML            0.4151      0.104      3.994      0.000       0.211       0.619
+WML           -0.3488      0.092     -3.809      0.000      -0.529      -0.169
+RMW           -0.2171      0.123     -1.766      0.078      -0.458       0.024
+MKT-RF         0.0164      0.016      1.036      0.301      -0.015       0.048
+==============================================================================
+Omnibus:                       41.678   Durbin-Watson:                   2.389
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              144.450
+Skew:                          -0.087   Prob(JB):                     4.30e-32
+Kurtosis:                       5.174   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for ZDJ : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ZDJ   R-squared:                       0.027
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     3.946
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):            0.00155
+Time:                        22:14:39   Log-Likelihood:                 1892.5
+No. Observations:                 729   AIC:                            -3773.
+Df Residuals:                     723   BIC:                            -3746.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.001      0.333      0.739      -0.001       0.002
+SMB           -0.0670      0.070     -0.953      0.341      -0.205       0.071
+HML           -0.1363      0.100     -1.363      0.173      -0.333       0.060
+WML           -0.1335      0.088     -1.515      0.130      -0.306       0.040
+RMW           -0.4549      0.118     -3.847      0.000      -0.687      -0.223
+MKT-RF         0.0044      0.015      0.292      0.770      -0.025       0.034
+==============================================================================
+Omnibus:                      102.573   Durbin-Watson:                   1.433
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              715.944
+Skew:                           0.391   Prob(JB):                    3.43e-156
+Kurtosis:                       7.792   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SRM : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SRM   R-squared:                       0.050
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     7.575
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           6.01e-07
+Time:                        22:14:39   Log-Likelihood:                 1608.2
+No. Observations:                 729   AIC:                            -3204.
+Df Residuals:                     723   BIC:                            -3177.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0005      0.001     -0.392      0.695      -0.003       0.002
+SMB           -0.1987      0.104     -1.914      0.056      -0.402       0.005
+HML            0.1374      0.148      0.931      0.352      -0.152       0.427
+WML           -0.0591      0.130     -0.454      0.650      -0.315       0.196
+RMW           -1.0622      0.175     -6.082      0.000      -1.405      -0.719
+MKT-RF         0.0114      0.023      0.505      0.614      -0.033       0.056
+==============================================================================
+Omnibus:                       90.647   Durbin-Watson:                   1.373
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              670.586
+Skew:                          -0.248   Prob(JB):                    2.42e-146
+Kurtosis:                       7.672   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SNP : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SNP   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.041
+Method:                 Least Squares   F-statistic:                     7.256
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           1.21e-06
+Time:                        22:14:39   Log-Likelihood:                 1744.5
+No. Observations:                 729   AIC:                            -3477.
+Df Residuals:                     723   BIC:                            -3449.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0013      0.001      1.204      0.229      -0.001       0.003
+SMB           -0.4399      0.086     -5.109      0.000      -0.609      -0.271
+HML           -0.2908      0.122     -2.374      0.018      -0.531      -0.050
+WML           -0.4846      0.108     -4.489      0.000      -0.697      -0.273
+RMW           -0.2330      0.145     -1.609      0.108      -0.517       0.051
+MKT-RF         0.0151      0.019      0.810      0.418      -0.022       0.052
+==============================================================================
+Omnibus:                       36.153   Durbin-Watson:                   2.377
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               86.490
+Skew:                           0.241   Prob(JB):                     1.66e-19
+Kurtosis:                       4.617   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SMI : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SMI   R-squared:                       0.034
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     5.101
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000132
+Time:                        22:14:39   Log-Likelihood:                 1713.1
+No. Observations:                 729   AIC:                            -3414.
+Df Residuals:                     723   BIC:                            -3387.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0019      0.001      1.683      0.093      -0.000       0.004
+SMB           -0.3090      0.090     -3.437      0.001      -0.485      -0.132
+HML           -0.1033      0.128     -0.808      0.419      -0.354       0.148
+WML           -0.3381      0.113     -3.001      0.003      -0.559      -0.117
+RMW           -0.3567      0.151     -2.358      0.019      -0.654      -0.060
+MKT-RF         0.0557      0.019      2.855      0.004       0.017       0.094
+==============================================================================
+Omnibus:                       34.927   Durbin-Watson:                   2.337
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              105.093
+Skew:                           0.079   Prob(JB):                     1.51e-23
+Kurtosis:                       4.853   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for CMT : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CMT   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     9.005
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           2.58e-08
+Time:                        22:14:39   Log-Likelihood:                 1710.5
+No. Observations:                 729   AIC:                            -3409.
+Df Residuals:                     723   BIC:                            -3381.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0012      0.001      1.086      0.278      -0.001       0.003
+SMB           -0.0819      0.090     -0.908      0.364      -0.259       0.095
+HML           -0.6479      0.128     -5.049      0.000      -0.900      -0.396
+WML           -0.4203      0.113     -3.716      0.000      -0.642      -0.198
+RMW            0.6756      0.152      4.451      0.000       0.378       0.974
+MKT-RF         0.0252      0.020      1.286      0.199      -0.013       0.064
+==============================================================================
+Omnibus:                      116.272   Durbin-Watson:                   1.725
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              829.262
+Skew:                           0.489   Prob(JB):                    8.47e-181
+Kurtosis:                       8.133   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for DYT : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    DYT   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     2.542
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):             0.0272
+Time:                        22:14:39   Log-Likelihood:                 1962.5
+No. Observations:                 729   AIC:                            -3913.
+Df Residuals:                     723   BIC:                            -3885.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0007      0.001      0.864      0.388      -0.001       0.002
+SMB           -0.1871      0.064     -2.931      0.003      -0.312      -0.062
+HML           -0.1089      0.091     -1.199      0.231      -0.287       0.069
+WML           -0.2453      0.080     -3.065      0.002      -0.402      -0.088
+RMW           -0.0606      0.107     -0.564      0.573      -0.272       0.150
+MKT-RF         0.0137      0.014      0.993      0.321      -0.013       0.041
+==============================================================================
+Omnibus:                      111.889   Durbin-Watson:                   1.986
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              884.399
+Skew:                           0.414   Prob(JB):                    9.02e-193
+Kurtosis:                       8.332   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for RIS : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    RIS   R-squared:                       0.052
+Model:                            OLS   Adj. R-squared:                  0.045
+Method:                 Least Squares   F-statistic:                     7.899
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           2.95e-07
+Time:                        22:14:39   Log-Likelihood:                 1801.8
+No. Observations:                 729   AIC:                            -3592.
+Df Residuals:                     723   BIC:                            -3564.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0008      0.001     -0.785      0.433      -0.003       0.001
+SMB           -0.3449      0.080     -4.334      0.000      -0.501      -0.189
+HML           -0.3181      0.113     -2.810      0.005      -0.540      -0.096
+WML           -0.5099      0.100     -5.110      0.000      -0.706      -0.314
+RMW            0.3564      0.134      2.661      0.008       0.093       0.619
+MKT-RF         0.0008      0.017      0.044      0.965      -0.033       0.035
+==============================================================================
+Omnibus:                       23.417   Durbin-Watson:                   2.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               55.172
+Skew:                          -0.032   Prob(JB):                     1.05e-12
+Kurtosis:                       4.346   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SID : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SID   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.112
+Method:                 Least Squares   F-statistic:                     19.39
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           3.86e-18
+Time:                        22:14:39   Log-Likelihood:                 1836.5
+No. Observations:                 729   AIC:                            -3661.
+Df Residuals:                     723   BIC:                            -3634.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0016      0.001      1.661      0.097      -0.000       0.003
+SMB           -0.4791      0.076     -6.313      0.000      -0.628      -0.330
+HML           -0.6026      0.108     -5.582      0.000      -0.815      -0.391
+WML           -0.7574      0.095     -7.962      0.000      -0.944      -0.571
+RMW           -0.3884      0.128     -3.042      0.002      -0.639      -0.138
+MKT-RF         0.0522      0.016      3.173      0.002       0.020       0.085
+==============================================================================
+Omnibus:                       58.026   Durbin-Watson:                   2.024
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              195.511
+Skew:                          -0.313   Prob(JB):                     3.51e-43
+Kurtosis:                       5.458   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Summary for SOT : 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SOT   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     4.972
+Date:                Fri, 10 Jan 2025   Prob (F-statistic):           0.000175
+Time:                        22:14:39   Log-Likelihood:                 1872.5
+No. Observations:                 729   AIC:                            -3733.
+Df Residuals:                     723   BIC:                            -3705.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0019      0.001      2.039      0.042    6.87e-05       0.004
+SMB           -0.1452      0.072     -2.010      0.045      -0.287      -0.003
+HML            0.1706      0.103      1.661      0.097      -0.031       0.372
+WML            0.0360      0.091      0.398      0.691      -0.142       0.214
+RMW            0.3016      0.122      2.481      0.013       0.063       0.540
+MKT-RF         0.0292      0.016      1.863      0.063      -0.002       0.060
+==============================================================================
+Omnibus:                       68.351   Durbin-Watson:                   2.343
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              373.036
+Skew:                           0.165   Prob(JB):                     9.92e-82
+Kurtosis:                       6.489   Cond. No.                         189.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+

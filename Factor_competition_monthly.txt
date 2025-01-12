@@ -1,0 +1,150 @@
+SMB_month regression 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              SMB_month   R-squared:                       0.478
+Model:                            OLS   Adj. R-squared:                  0.475
+Method:                 Least Squares   F-statistic:                     166.5
+Date:                Sat, 11 Jan 2025   Prob (F-statistic):          3.71e-101
+Time:                        15:56:49   Log-Likelihood:                 975.08
+No. Observations:                 732   AIC:                            -1940.
+Df Residuals:                     727   BIC:                            -1917.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.0190      0.010     -1.899      0.058      -0.039       0.001
+HML_month       -0.3888      0.094     -4.126      0.000      -0.574      -0.204
+WML_month       -0.8793      0.055    -15.988      0.000      -0.987      -0.771
+RMW_month       -0.2468      0.116     -2.134      0.033      -0.474      -0.020
+MKT-RF_month    -0.0291      0.018     -1.598      0.111      -0.065       0.007
+==============================================================================
+Omnibus:                      338.565   Durbin-Watson:                   0.102
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.210
+Skew:                           0.111   Prob(JB):                     1.13e-09
+Kurtosis:                       1.859   Cond. No.                         66.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+HML_month regression 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              HML_month   R-squared:                       0.785
+Model:                            OLS   Adj. R-squared:                  0.783
+Method:                 Least Squares   F-statistic:                     662.1
+Date:                Sat, 11 Jan 2025   Prob (F-statistic):          1.18e-240
+Time:                        15:56:49   Log-Likelihood:                 1666.2
+No. Observations:                 732   AIC:                            -3322.
+Df Residuals:                     727   BIC:                            -3299.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0171      0.004      4.446      0.000       0.010       0.025
+SMB_month       -0.0588      0.014     -4.126      0.000      -0.087      -0.031
+WML_month       -0.5463      0.014    -37.857      0.000      -0.575      -0.518
+RMW_month        0.6320      0.039     16.391      0.000       0.556       0.708
+MKT-RF_month     0.0397      0.007      5.715      0.000       0.026       0.053
+==============================================================================
+Omnibus:                       11.324   Durbin-Watson:                   0.092
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                9.169
+Skew:                           0.190   Prob(JB):                       0.0102
+Kurtosis:                       2.605   Cond. No.                         47.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+WML_month regression 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              WML_month   R-squared:                       0.817
+Model:                            OLS   Adj. R-squared:                  0.816
+Method:                 Least Squares   F-statistic:                     810.0
+Date:                Sat, 11 Jan 2025   Prob (F-statistic):          3.97e-266
+Time:                        15:56:49   Log-Likelihood:                 1373.8
+No. Observations:                 732   AIC:                            -2738.
+Df Residuals:                     727   BIC:                            -2715.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0160      0.006      2.755      0.006       0.005       0.027
+SMB_month       -0.2958      0.019    -15.988      0.000      -0.332      -0.260
+HML_month       -1.2145      0.032    -37.857      0.000      -1.277      -1.152
+RMW_month        0.6481      0.063     10.313      0.000       0.525       0.771
+MKT-RF_month     0.0348      0.011      3.317      0.001       0.014       0.055
+==============================================================================
+Omnibus:                       20.322   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               11.578
+Skew:                          -0.126   Prob(JB):                      0.00306
+Kurtosis:                       2.438   Cond. No.                         53.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+RMW_month regression 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              RMW_month   R-squared:                       0.295
+Model:                            OLS   Adj. R-squared:                  0.291
+Method:                 Least Squares   F-statistic:                     76.17
+Date:                Sat, 11 Jan 2025   Prob (F-statistic):           6.02e-54
+Time:                        15:56:49   Log-Likelihood:                 1809.7
+No. Observations:                 732   AIC:                            -3609.
+Df Residuals:                     727   BIC:                            -3586.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.0072      0.003     -2.257      0.024      -0.013      -0.001
+SMB_month       -0.0252      0.012     -2.134      0.033      -0.048      -0.002
+HML_month        0.4270      0.026     16.391      0.000       0.376       0.478
+WML_month        0.1969      0.019     10.313      0.000       0.159       0.234
+MKT-RF_month    -0.0202      0.006     -3.498      0.000      -0.032      -0.009
+==============================================================================
+Omnibus:                       57.495   Durbin-Watson:                   0.087
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.180
+Skew:                          -0.136   Prob(JB):                     2.52e-05
+Kurtosis:                       2.212   Cond. No.                         46.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MKT-RF_month regression 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           MKT-RF_month   R-squared:                       0.052
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     9.987
+Date:                Sat, 11 Jan 2025   Prob (F-statistic):           7.16e-08
+Time:                        15:56:49   Log-Likelihood:                 455.89
+No. Observations:                 732   AIC:                            -901.8
+Df Residuals:                     727   BIC:                            -878.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.5334      0.005   -107.076      0.000      -0.543      -0.524
+SMB_month     -0.1202      0.075     -1.598      0.111      -0.268       0.028
+HML_month      1.0834      0.190      5.715      0.000       0.711       1.456
+WML_month      0.4278      0.129      3.317      0.001       0.175       0.681
+RMW_month     -0.8177      0.234     -3.498      0.000      -1.277      -0.359
+==============================================================================
+Omnibus:                      250.451   Durbin-Watson:                   0.072
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1320.922
+Skew:                          -1.453   Prob(JB):                    1.46e-287
+Kurtosis:                       8.904   Cond. No.                         57.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+

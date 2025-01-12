@@ -1,0 +1,561 @@
+Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CMA   R-squared:                       0.228
+Model:                            OLS   Adj. R-squared:                  0.125
+Method:                 Least Squares   F-statistic:                     2.215
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0911
+Time:                        14:11:16   Log-Likelihood:                 60.181
+No. Observations:                  35   AIC:                            -110.4
+Df Residuals:                      30   BIC:                            -102.6
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0056      0.027     -0.205      0.839      -0.061       0.050
+HML_month      0.3579      0.323      1.108      0.276      -0.301       1.017
+RMW_month     -0.1455      0.388     -0.375      0.710      -0.938       0.647
+WML_month     -0.0902      0.190     -0.474      0.639      -0.479       0.299
+Vol            0.2027      0.423      0.479      0.635      -0.661       1.066
+==============================================================================
+Omnibus:                        1.122   Durbin-Watson:                   1.817
+Prob(Omnibus):                  0.571   Jarque-Bera (JB):                0.637
+Skew:                          -0.330   Prob(JB):                        0.727
+Kurtosis:                       3.049   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MUT   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                 -0.049
+Method:                 Least Squares   F-statistic:                    0.6042
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.663
+Time:                        14:11:16   Log-Likelihood:                 54.197
+No. Observations:                  35   AIC:                            -98.39
+Df Residuals:                      30   BIC:                            -90.62
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0215      0.032     -0.670      0.508      -0.087       0.044
+HML_month      0.3605      0.383      0.941      0.354      -0.422       1.143
+RMW_month     -0.3981      0.460     -0.865      0.394      -1.338       0.542
+WML_month      0.0360      0.226      0.159      0.874      -0.425       0.497
+Vol            0.3282      0.502      0.654      0.518      -0.696       1.353
+==============================================================================
+Omnibus:                        2.506   Durbin-Watson:                   2.464
+Prob(Omnibus):                  0.286   Jarque-Bera (JB):                1.712
+Skew:                          -0.538   Prob(JB):                        0.425
+Kurtosis:                       3.124   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    LHM   R-squared:                       0.284
+Model:                            OLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     2.979
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0349
+Time:                        14:11:16   Log-Likelihood:                 53.604
+No. Observations:                  35   AIC:                            -97.21
+Df Residuals:                      30   BIC:                            -89.43
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0021      0.033     -0.066      0.948      -0.069       0.065
+HML_month      0.7727      0.390      1.983      0.057      -0.023       1.568
+RMW_month      0.1239      0.468      0.265      0.793      -0.832       1.080
+WML_month      0.1117      0.230      0.486      0.630      -0.357       0.581
+Vol            0.2050      0.510      0.402      0.691      -0.837       1.247
+==============================================================================
+Omnibus:                        0.206   Durbin-Watson:                   2.023
+Prob(Omnibus):                  0.902   Jarque-Bera (JB):                0.001
+Skew:                           0.004   Prob(JB):                         1.00
+Kurtosis:                       2.979   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TQM   R-squared:                       0.386
+Model:                            OLS   Adj. R-squared:                  0.304
+Method:                 Least Squares   F-statistic:                     4.721
+Date:              lun., 30 déc. 2024   Prob (F-statistic):            0.00448
+Time:                        14:11:16   Log-Likelihood:                 51.115
+No. Observations:                  35   AIC:                            -92.23
+Df Residuals:                      30   BIC:                            -84.45
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0412      0.035     -1.174      0.249      -0.113       0.030
+HML_month      1.1413      0.418      2.728      0.011       0.287       1.996
+RMW_month      0.6410      0.503      1.275      0.212      -0.386       1.668
+WML_month      0.4379      0.247      1.775      0.086      -0.066       0.942
+Vol            0.5357      0.548      0.978      0.336      -0.583       1.654
+==============================================================================
+Omnibus:                        0.675   Durbin-Watson:                   1.983
+Prob(Omnibus):                  0.714   Jarque-Bera (JB):                0.593
+Skew:                          -0.296   Prob(JB):                        0.743
+Kurtosis:                       2.763   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MNG   R-squared:                       0.332
+Model:                            OLS   Adj. R-squared:                  0.243
+Method:                 Least Squares   F-statistic:                     3.734
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0140
+Time:                        14:11:16   Log-Likelihood:                 43.797
+No. Observations:                  35   AIC:                            -77.59
+Df Residuals:                      30   BIC:                            -69.82
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0489      0.043     -1.130      0.267      -0.137       0.039
+HML_month      1.9112      0.516      3.707      0.001       0.858       2.964
+RMW_month     -1.3439      0.620     -2.169      0.038      -2.609      -0.079
+WML_month      1.0599      0.304      3.486      0.002       0.439       1.681
+Vol            0.6540      0.675      0.969      0.340      -0.725       2.033
+==============================================================================
+Omnibus:                        0.305   Durbin-Watson:                   1.587
+Prob(Omnibus):                  0.858   Jarque-Bera (JB):                0.441
+Skew:                          -0.188   Prob(JB):                        0.802
+Kurtosis:                       2.598   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CSR   R-squared:                       0.373
+Model:                            OLS   Adj. R-squared:                  0.289
+Method:                 Least Squares   F-statistic:                     4.457
+Date:              lun., 30 déc. 2024   Prob (F-statistic):            0.00603
+Time:                        14:11:16   Log-Likelihood:                 55.151
+No. Observations:                  35   AIC:                            -100.3
+Df Residuals:                      30   BIC:                            -92.53
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0382      0.031      1.224      0.231      -0.026       0.102
+HML_month      0.7526      0.373      2.019      0.053      -0.009       1.514
+RMW_month      0.9297      0.448      2.076      0.047       0.015       1.844
+WML_month      0.3607      0.220      1.641      0.111      -0.088       0.810
+Vol           -0.4882      0.488     -1.000      0.325      -1.485       0.509
+==============================================================================
+Omnibus:                        3.636   Durbin-Watson:                   2.251
+Prob(Omnibus):                  0.162   Jarque-Bera (JB):                2.430
+Skew:                           0.613   Prob(JB):                        0.297
+Kurtosis:                       3.405   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    LBV   R-squared:                       0.174
+Model:                            OLS   Adj. R-squared:                  0.064
+Method:                 Least Squares   F-statistic:                     1.577
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.206
+Time:                        14:11:16   Log-Likelihood:                 62.945
+No. Observations:                  35   AIC:                            -115.9
+Df Residuals:                      30   BIC:                            -108.1
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0150      0.025      0.601      0.552      -0.036       0.066
+HML_month      0.4909      0.298      1.645      0.110      -0.118       1.100
+RMW_month      0.1794      0.358      0.500      0.621      -0.553       0.911
+WML_month      0.3619      0.176      2.057      0.048       0.003       0.721
+Vol           -0.2215      0.391     -0.567      0.575      -1.019       0.576
+==============================================================================
+Omnibus:                        0.214   Durbin-Watson:                   2.624
+Prob(Omnibus):                  0.898   Jarque-Bera (JB):                0.336
+Skew:                           0.164   Prob(JB):                        0.845
+Kurtosis:                       2.649   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BOA   R-squared:                       0.191
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     1.767
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.162
+Time:                        14:11:16   Log-Likelihood:                 66.277
+No. Observations:                  35   AIC:                            -122.6
+Df Residuals:                      30   BIC:                            -114.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0129      0.023     -0.566      0.575      -0.059       0.034
+HML_month      0.6801      0.271      2.507      0.018       0.126       1.234
+RMW_month     -0.4107      0.326     -1.260      0.217      -1.076       0.255
+WML_month      0.2632      0.160      1.646      0.110      -0.063       0.590
+Vol            0.2526      0.355      0.711      0.483      -0.473       0.978
+==============================================================================
+Omnibus:                        3.936   Durbin-Watson:                   1.875
+Prob(Omnibus):                  0.140   Jarque-Bera (JB):                2.534
+Skew:                          -0.540   Prob(JB):                        0.282
+Kurtosis:                       3.756   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CIH   R-squared:                       0.139
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     1.210
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.327
+Time:                        14:11:16   Log-Likelihood:                 54.483
+No. Observations:                  35   AIC:                            -98.97
+Df Residuals:                      30   BIC:                            -91.19
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0332      0.032      1.043      0.305      -0.032       0.098
+HML_month      0.5209      0.380      1.371      0.181      -0.255       1.297
+RMW_month      0.0794      0.457      0.174      0.863      -0.853       1.012
+WML_month      0.2530      0.224      1.129      0.268      -0.205       0.711
+Vol           -0.5931      0.497     -1.192      0.243      -1.609       0.423
+==============================================================================
+Omnibus:                       10.348   Durbin-Watson:                   2.123
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               15.145
+Skew:                           0.641   Prob(JB):                     0.000514
+Kurtosis:                       5.957   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CFG   R-squared:                       0.125
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     1.071
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.388
+Time:                        14:11:16   Log-Likelihood:                 68.808
+No. Observations:                  35   AIC:                            -127.6
+Df Residuals:                      30   BIC:                            -119.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0307      0.021     -1.451      0.157      -0.074       0.013
+HML_month      0.4819      0.252      1.910      0.066      -0.033       0.997
+RMW_month     -0.3072      0.303     -1.013      0.319      -0.926       0.312
+WML_month      0.2384      0.149      1.602      0.120      -0.065       0.542
+Vol            0.3247      0.330      0.983      0.334      -0.350       0.999
+==============================================================================
+Omnibus:                       14.226   Durbin-Watson:                   1.799
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.692
+Skew:                          -1.246   Prob(JB):                     0.000391
+Kurtosis:                       5.134   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ADI   R-squared:                       0.175
+Model:                            OLS   Adj. R-squared:                  0.065
+Method:                 Least Squares   F-statistic:                     1.587
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.203
+Time:                        14:11:16   Log-Likelihood:                 29.102
+No. Observations:                  35   AIC:                            -48.20
+Df Residuals:                      30   BIC:                            -40.43
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0761      0.066     -1.156      0.257      -0.210       0.058
+HML_month     -0.3924      0.785     -0.500      0.621      -1.995       1.210
+RMW_month     -1.7752      0.943     -1.883      0.069      -3.701       0.150
+WML_month     -0.2728      0.463     -0.590      0.560      -1.218       0.672
+Vol            0.5071      1.027      0.494      0.625      -1.591       2.605
+==============================================================================
+Omnibus:                        2.245   Durbin-Watson:                   1.541
+Prob(Omnibus):                  0.325   Jarque-Bera (JB):                1.326
+Skew:                           0.456   Prob(JB):                        0.515
+Kurtosis:                       3.279   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ATW   R-squared:                       0.248
+Model:                            OLS   Adj. R-squared:                  0.148
+Method:                 Least Squares   F-statistic:                     2.471
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0658
+Time:                        14:11:16   Log-Likelihood:                 64.127
+No. Observations:                  35   AIC:                            -118.3
+Df Residuals:                      30   BIC:                            -110.5
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0121      0.024     -0.502      0.619      -0.062       0.037
+HML_month      0.5716      0.288      1.982      0.057      -0.017       1.161
+RMW_month      0.2511      0.347      0.724      0.474      -0.457       0.959
+WML_month      0.1715      0.170      1.009      0.321      -0.176       0.519
+Vol            0.1630      0.378      0.432      0.669      -0.608       0.934
+==============================================================================
+Omnibus:                        1.296   Durbin-Watson:                   2.289
+Prob(Omnibus):                  0.523   Jarque-Bera (JB):                0.452
+Skew:                          -0.174   Prob(JB):                        0.798
+Kurtosis:                       3.434   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TGC   R-squared:                       0.270
+Model:                            OLS   Adj. R-squared:                  0.173
+Method:                 Least Squares   F-statistic:                     2.777
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0448
+Time:                        14:11:16   Log-Likelihood:                 50.076
+No. Observations:                  35   AIC:                            -90.15
+Df Residuals:                      30   BIC:                            -82.38
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0291      0.036     -0.805      0.427      -0.103       0.045
+HML_month      1.1124      0.431      2.581      0.015       0.232       1.992
+RMW_month     -0.3548      0.518     -0.685      0.498      -1.412       0.703
+WML_month      0.3106      0.254      1.223      0.231      -0.208       0.830
+Vol            0.1612      0.564      0.286      0.777      -0.991       1.314
+==============================================================================
+Omnibus:                        1.388   Durbin-Watson:                   1.409
+Prob(Omnibus):                  0.500   Jarque-Bera (JB):                0.485
+Skew:                          -0.112   Prob(JB):                        0.785
+Kurtosis:                       3.531   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    IAM   R-squared:                       0.212
+Model:                            OLS   Adj. R-squared:                  0.107
+Method:                 Least Squares   F-statistic:                     2.022
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.117
+Time:                        14:11:16   Log-Likelihood:                 55.712
+No. Observations:                  35   AIC:                            -101.4
+Df Residuals:                      30   BIC:                            -93.65
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0084      0.031     -0.273      0.787      -0.071       0.054
+HML_month      0.1693      0.367      0.461      0.648      -0.580       0.918
+RMW_month      0.8811      0.441      1.999      0.055      -0.019       1.781
+WML_month      0.1151      0.216      0.532      0.599      -0.327       0.557
+Vol            0.2926      0.480      0.609      0.547      -0.688       1.274
+==============================================================================
+Omnibus:                        0.094   Durbin-Watson:                   1.615
+Prob(Omnibus):                  0.954   Jarque-Bera (JB):                0.166
+Skew:                          -0.107   Prob(JB):                        0.920
+Kurtosis:                       2.739   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    HPS   R-squared:                       0.900
+Model:                            OLS   Adj. R-squared:                  0.886
+Method:                 Least Squares   F-statistic:                     67.37
+Date:              lun., 30 déc. 2024   Prob (F-statistic):           1.49e-14
+Time:                        14:11:16   Log-Likelihood:                -24.778
+No. Observations:                  35   AIC:                             59.56
+Df Residuals:                      30   BIC:                             67.33
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.4696      0.307     -1.531      0.136      -1.096       0.157
+HML_month     -9.9618      3.658     -2.723      0.011     -17.432      -2.491
+RMW_month      0.9182      4.395      0.209      0.836      -8.058       9.894
+WML_month     11.0999      2.157      5.146      0.000       6.695      15.505
+Vol            7.8256      4.789      1.634      0.113      -1.956      17.607
+==============================================================================
+Omnibus:                        1.093   Durbin-Watson:                   2.362
+Prob(Omnibus):                  0.579   Jarque-Bera (JB):                0.831
+Skew:                           0.371   Prob(JB):                        0.660
+Kurtosis:                       2.855   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    AKT   R-squared:                       0.109
+Model:                            OLS   Adj. R-squared:                 -0.010
+Method:                 Least Squares   F-statistic:                    0.9183
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.466
+Time:                        14:11:16   Log-Likelihood:                 43.543
+No. Observations:                  35   AIC:                            -77.09
+Df Residuals:                      30   BIC:                            -69.31
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0226      0.044     -0.518      0.608      -0.112       0.066
+HML_month      0.4163      0.519      0.801      0.429      -0.644       1.477
+RMW_month     -0.7543      0.624     -1.209      0.236      -2.029       0.520
+WML_month      0.0011      0.306      0.003      0.997      -0.624       0.626
+Vol           -0.0537      0.680     -0.079      0.938      -1.442       1.335
+==============================================================================
+Omnibus:                       15.214   Durbin-Watson:                   1.971
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               16.421
+Skew:                          -1.417   Prob(JB):                     0.000272
+Kurtosis:                       4.798   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ADH   R-squared:                       0.108
+Model:                            OLS   Adj. R-squared:                 -0.011
+Method:                 Least Squares   F-statistic:                    0.9068
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.473
+Time:                        14:11:16   Log-Likelihood:                 17.358
+No. Observations:                  35   AIC:                            -24.72
+Df Residuals:                      30   BIC:                            -16.94
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0694      0.092      0.754      0.457      -0.119       0.257
+HML_month      0.3122      1.097      0.284      0.778      -1.929       2.554
+RMW_month     -1.7106      1.319     -1.297      0.204      -4.404       0.982
+WML_month      0.4265      0.647      0.659      0.515      -0.895       1.748
+Vol           -1.3741      1.437     -0.956      0.347      -4.309       1.560
+==============================================================================
+Omnibus:                        2.507   Durbin-Watson:                   1.913
+Prob(Omnibus):                  0.286   Jarque-Bera (JB):                1.403
+Skew:                           0.190   Prob(JB):                        0.496
+Kurtosis:                       3.904   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    RDS   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                 -0.096
+Method:                 Least Squares   F-statistic:                    0.2521
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.906
+Time:                        14:11:16   Log-Likelihood:                 15.202
+No. Observations:                  35   AIC:                            -20.40
+Df Residuals:                      30   BIC:                            -12.63
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0099      0.098     -0.101      0.920      -0.210       0.190
+HML_month     -0.5598      1.167     -0.480      0.635      -2.944       1.824
+RMW_month     -0.6381      1.402     -0.455      0.652      -3.502       2.226
+WML_month     -0.4205      0.688     -0.611      0.546      -1.826       0.985
+Vol            0.0412      1.528      0.027      0.979      -3.080       3.162
+==============================================================================
+Omnibus:                       11.895   Durbin-Watson:                   1.525
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               14.470
+Skew:                          -0.917   Prob(JB):                     0.000721
+Kurtosis:                       5.561   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    MSA   R-squared:                       0.203
+Model:                            OLS   Adj. R-squared:                  0.097
+Method:                 Least Squares   F-statistic:                     1.909
+Date:              lun., 30 déc. 2024   Prob (F-statistic):              0.135
+Time:                        14:11:16   Log-Likelihood:                 52.583
+No. Observations:                  35   AIC:                            -95.17
+Df Residuals:                      30   BIC:                            -87.39
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0346      0.034     -1.030      0.311      -0.103       0.034
+HML_month      0.9441      0.401      2.354      0.025       0.125       1.763
+RMW_month     -0.0891      0.482     -0.185      0.855      -1.074       0.895
+WML_month      0.3786      0.237      1.601      0.120      -0.104       0.862
+Vol            0.3706      0.525      0.706      0.486      -0.702       1.443
+==============================================================================
+Omnibus:                        1.639   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.441   Jarque-Bera (JB):                1.465
+Skew:                          -0.372   Prob(JB):                        0.481
+Kurtosis:                       2.329   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.Regression analysis of BCP, 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BCP   R-squared:                       0.291
+Model:                            OLS   Adj. R-squared:                  0.197
+Method:                 Least Squares   F-statistic:                     3.082
+Date:              lun., 30 déc. 2024   Prob (F-statistic):             0.0307
+Time:                        14:11:16   Log-Likelihood:                 66.035
+No. Observations:                  35   AIC:                            -122.1
+Df Residuals:                      30   BIC:                            -114.3
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0096      0.023     -0.419      0.678      -0.056       0.037
+HML_month      0.7104      0.273      2.601      0.014       0.153       1.268
+RMW_month      0.1756      0.328      0.535      0.597      -0.495       0.846
+WML_month      0.2821      0.161      1.752      0.090      -0.047       0.611
+Vol            0.1624      0.358      0.454      0.653      -0.568       0.893
+==============================================================================
+Omnibus:                        0.149   Durbin-Watson:                   2.144
+Prob(Omnibus):                  0.928   Jarque-Bera (JB):                0.181
+Skew:                          -0.132   Prob(JB):                        0.914
+Kurtosis:                       2.767   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
